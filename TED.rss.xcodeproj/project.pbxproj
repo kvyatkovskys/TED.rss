@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC436A61AEFA71600E618A4 /* KSTalkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC436A51AEFA71600E618A4 /* KSTalkDetailViewController.m */; };
+		8BEFEFB51AEE936800C78A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFB41AEE936800C78A61 /* main.m */; };
+		8BEFEFB81AEE936800C78A61 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFB71AEE936800C78A61 /* KSAppDelegate.m */; };
+		8BEFEFBB1AEE936800C78A61 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFBA1AEE936800C78A61 /* KSViewController.m */; };
+		8BEFEFBE1AEE936800C78A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFEFBC1AEE936800C78A61 /* Main.storyboard */; };
+		8BEFEFC01AEE936800C78A61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFEFBF1AEE936800C78A61 /* Images.xcassets */; };
+		8BEFEFC31AEE936800C78A61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFEFC11AEE936800C78A61 /* LaunchScreen.xib */; };
+		8BEFEFCF1AEE936800C78A61 /* TEDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFCE1AEE936800C78A61 /* TEDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BEFEFC91AEE936800C78A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEFEFA71AEE936800C78A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEFEFAE1AEE936800C78A61;
+			remoteInfo = TED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC436A41AEFA71600E618A4 /* KSTalkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTalkDetailViewController.h; sourceTree = "<group>"; };
+		8BC436A51AEFA71600E618A4 /* KSTalkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTalkDetailViewController.m; sourceTree = "<group>"; };
+		8BEFEFAF1AEE936800C78A61 /* TED.rss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TED.rss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFEFB31AEE936800C78A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFEFB41AEE936800C78A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BEFEFB61AEE936800C78A61 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		8BEFEFB71AEE936800C78A61 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		8BEFEFB91AEE936800C78A61 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		8BEFEFBA1AEE936800C78A61 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		8BEFEFBD1AEE936800C78A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEFEFBF1AEE936800C78A61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BEFEFC21AEE936800C78A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8BEFEFC81AEE936800C78A61 /* TED.rssTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TED.rssTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFEFCD1AEE936800C78A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFEFCE1AEE936800C78A61 /* TEDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEFEFAC1AEE936800C78A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFEFC51AEE936800C78A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEFEFA61AEE936800C78A61 = {
+			isa = PBXGroup;
+			children = (
+				8BEFEFB11AEE936800C78A61 /* TED */,
+				8BEFEFCB1AEE936800C78A61 /* TEDTests */,
+				8BEFEFB01AEE936800C78A61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEFEFB01AEE936800C78A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFEFAF1AEE936800C78A61 /* TED.rss.app */,
+				8BEFEFC81AEE936800C78A61 /* TED.rssTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEFEFB11AEE936800C78A61 /* TED */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFEFB61AEE936800C78A61 /* KSAppDelegate.h */,
+				8BEFEFB71AEE936800C78A61 /* KSAppDelegate.m */,
+				8BEFEFB91AEE936800C78A61 /* KSViewController.h */,
+				8BEFEFBA1AEE936800C78A61 /* KSViewController.m */,
+				8BC436A41AEFA71600E618A4 /* KSTalkDetailViewController.h */,
+				8BC436A51AEFA71600E618A4 /* KSTalkDetailViewController.m */,
+				8BEFEFBC1AEE936800C78A61 /* Main.storyboard */,
+				8BEFEFBF1AEE936800C78A61 /* Images.xcassets */,
+				8BEFEFC11AEE936800C78A61 /* LaunchScreen.xib */,
+				8BEFEFB21AEE936800C78A61 /* Supporting Files */,
+			);
+			path = TED;
+			sourceTree = "<group>";
+		};
+		8BEFEFB21AEE936800C78A61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFEFB31AEE936800C78A61 /* Info.plist */,
+				8BEFEFB41AEE936800C78A61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BEFEFCB1AEE936800C78A61 /* TEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFEFCE1AEE936800C78A61 /* TEDTests.m */,
+				8BEFEFCC1AEE936800C78A61 /* Supporting Files */,
+			);
+			path = TEDTests;
+			sourceTree = "<group>";
+		};
+		8BEFEFCC1AEE936800C78A61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFEFCD1AEE936800C78A61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEFEFAE1AEE936800C78A61 /* TED.rss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFEFD21AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rss" */;
+			buildPhases = (
+				8BEFEFAB1AEE936800C78A61 /* Sources */,
+				8BEFEFAC1AEE936800C78A61 /* Frameworks */,
+				8BEFEFAD1AEE936800C78A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TED.rss;
+			productName = TED;
+			productReference = 8BEFEFAF1AEE936800C78A61 /* TED.rss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BEFEFC71AEE936800C78A61 /* TED.rssTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFEFD51AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rssTests" */;
+			buildPhases = (
+				8BEFEFC41AEE936800C78A61 /* Sources */,
+				8BEFEFC51AEE936800C78A61 /* Frameworks */,
+				8BEFEFC61AEE936800C78A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEFEFCA1AEE936800C78A61 /* PBXTargetDependency */,
+			);
+			name = TED.rssTests;
+			productName = TEDTests;
+			productReference = 8BEFEFC81AEE936800C78A61 /* TED.rssTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEFEFA71AEE936800C78A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Kviatkovskii;
+				TargetAttributes = {
+					8BEFEFAE1AEE936800C78A61 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8BEFEFC71AEE936800C78A61 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8BEFEFAE1AEE936800C78A61;
+					};
+				};
+			};
+			buildConfigurationList = 8BEFEFAA1AEE936800C78A61 /* Build configuration list for PBXProject "TED.rss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEFEFA61AEE936800C78A61;
+			productRefGroup = 8BEFEFB01AEE936800C78A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEFEFAE1AEE936800C78A61 /* TED.rss */,
+				8BEFEFC71AEE936800C78A61 /* TED.rssTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEFEFAD1AEE936800C78A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFEFBE1AEE936800C78A61 /* Main.storyboard in Resources */,
+				8BEFEFC31AEE936800C78A61 /* LaunchScreen.xib in Resources */,
+				8BEFEFC01AEE936800C78A61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFEFC61AEE936800C78A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEFEFAB1AEE936800C78A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFEFBB1AEE936800C78A61 /* KSViewController.m in Sources */,
+				8BEFEFB81AEE936800C78A61 /* KSAppDelegate.m in Sources */,
+				8BEFEFB51AEE936800C78A61 /* main.m in Sources */,
+				8BC436A61AEFA71600E618A4 /* KSTalkDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFEFC41AEE936800C78A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFEFCF1AEE936800C78A61 /* TEDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BEFEFCA1AEE936800C78A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEFEFAE1AEE936800C78A61 /* TED.rss */;
+			targetProxy = 8BEFEFC91AEE936800C78A61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BEFEFBC1AEE936800C78A61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEFEFBD1AEE936800C78A61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEFEFC11AEE936800C78A61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEFEFC21AEE936800C78A61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEFEFD01AEE936800C78A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEFEFD11AEE936800C78A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEFEFD31AEE936800C78A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TED.rss;
+			};
+			name = Debug;
+		};
+		8BEFEFD41AEE936800C78A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TED.rss;
+			};
+			name = Release;
+		};
+		8BEFEFD61AEE936800C78A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TED.rssTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TED.app/TED";
+			};
+			name = Debug;
+		};
+		8BEFEFD71AEE936800C78A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TED.rssTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TED.app/TED";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEFEFAA1AEE936800C78A61 /* Build configuration list for PBXProject "TED.rss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFEFD01AEE936800C78A61 /* Debug */,
+				8BEFEFD11AEE936800C78A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFEFD21AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFEFD31AEE936800C78A61 /* Debug */,
+				8BEFEFD41AEE936800C78A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFEFD51AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rssTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFEFD61AEE936800C78A61 /* Debug */,
+				8BEFEFD71AEE936800C78A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEFEFA71AEE936800C78A61 /* Project object */;
+}
