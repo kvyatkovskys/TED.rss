@@ -7,53 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BC436A61AEFA71600E618A4 /* KSTalkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC436A51AEFA71600E618A4 /* KSTalkDetailViewController.m */; };
-		8BEFEFB51AEE936800C78A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFB41AEE936800C78A61 /* main.m */; };
-		8BEFEFB81AEE936800C78A61 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFB71AEE936800C78A61 /* KSAppDelegate.m */; };
-		8BEFEFBB1AEE936800C78A61 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFBA1AEE936800C78A61 /* KSViewController.m */; };
-		8BEFEFBE1AEE936800C78A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFEFBC1AEE936800C78A61 /* Main.storyboard */; };
-		8BEFEFC01AEE936800C78A61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFEFBF1AEE936800C78A61 /* Images.xcassets */; };
-		8BEFEFC31AEE936800C78A61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFEFC11AEE936800C78A61 /* LaunchScreen.xib */; };
-		8BEFEFCF1AEE936800C78A61 /* TEDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFEFCE1AEE936800C78A61 /* TEDTests.m */; };
+		8B62804B1AF21990001F79E2 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6280431AF21990001F79E2 /* KSAppDelegate.m */; };
+		8B62804C1AF21990001F79E2 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6280451AF21990001F79E2 /* KSViewController.m */; };
+		8B62804D1AF21990001F79E2 /* KSTalkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6280471AF21990001F79E2 /* KSTalkDetailViewController.m */; };
+		8B62804E1AF21990001F79E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6280481AF21990001F79E2 /* Main.storyboard */; };
+		8B62804F1AF21990001F79E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6280491AF21990001F79E2 /* Images.xcassets */; };
+		8B6280501AF21990001F79E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B62804A1AF21990001F79E2 /* LaunchScreen.xib */; };
+		8B6280531AF219A2001F79E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B6280511AF219A2001F79E2 /* Info.plist */; };
+		8B6280541AF219A2001F79E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6280521AF219A2001F79E2 /* main.m */; };
+		8B6280561AF219BD001F79E2 /* TEDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6280551AF219BD001F79E2 /* TEDTests.m */; };
+		8B6280581AF219CB001F79E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B6280571AF219CB001F79E2 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8BEFEFC91AEE936800C78A61 /* PBXContainerItemProxy */ = {
+		8B6280331AF2197A001F79E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8BEFEFA71AEE936800C78A61 /* Project object */;
+			containerPortal = 8B6280111AF2197A001F79E2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BEFEFAE1AEE936800C78A61;
-			remoteInfo = TED;
+			remoteGlobalIDString = 8B6280181AF2197A001F79E2;
+			remoteInfo = TED.rss;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8BC436A41AEFA71600E618A4 /* KSTalkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTalkDetailViewController.h; sourceTree = "<group>"; };
-		8BC436A51AEFA71600E618A4 /* KSTalkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTalkDetailViewController.m; sourceTree = "<group>"; };
-		8BEFEFAF1AEE936800C78A61 /* TED.rss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TED.rss.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEFEFB31AEE936800C78A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BEFEFB41AEE936800C78A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BEFEFB61AEE936800C78A61 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
-		8BEFEFB71AEE936800C78A61 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
-		8BEFEFB91AEE936800C78A61 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
-		8BEFEFBA1AEE936800C78A61 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
-		8BEFEFBD1AEE936800C78A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BEFEFBF1AEE936800C78A61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8BEFEFC21AEE936800C78A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8BEFEFC81AEE936800C78A61 /* TED.rssTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TED.rssTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEFEFCD1AEE936800C78A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BEFEFCE1AEE936800C78A61 /* TEDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEDTests.m; sourceTree = "<group>"; };
+		8B6280421AF21990001F79E2 /* KSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		8B6280431AF21990001F79E2 /* KSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		8B6280441AF21990001F79E2 /* KSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		8B6280451AF21990001F79E2 /* KSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		8B6280461AF21990001F79E2 /* KSTalkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTalkDetailViewController.h; sourceTree = "<group>"; };
+		8B6280471AF21990001F79E2 /* KSTalkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTalkDetailViewController.m; sourceTree = "<group>"; };
+		8B6280481AF21990001F79E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B6280491AF21990001F79E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B62804A1AF21990001F79E2 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		8B6280511AF219A2001F79E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6280521AF219A2001F79E2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B6280551AF219BD001F79E2 /* TEDTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDTests.m; sourceTree = "<group>"; };
+		8B6280571AF219CB001F79E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B62805A1AF21C5E001F79E2 /* TED.rss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TED.rss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B62805B1AF21C5E001F79E2 /* TED.rssTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TED.rssTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BEFEFAC1AEE936800C78A61 /* Frameworks */ = {
+		8B6280161AF2197A001F79E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEFEFC51AEE936800C78A61 /* Frameworks */ = {
+		8B62802F1AF2197A001F79E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,124 +65,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8BEFEFA61AEE936800C78A61 = {
+		8B6280101AF2197A001F79E2 = {
 			isa = PBXGroup;
 			children = (
-				8BEFEFB11AEE936800C78A61 /* TED */,
-				8BEFEFCB1AEE936800C78A61 /* TEDTests */,
-				8BEFEFB01AEE936800C78A61 /* Products */,
+				8B62801B1AF2197A001F79E2 /* TED.rss */,
+				8B6280351AF2197A001F79E2 /* TED.rssTests */,
+				8B6280591AF21B96001F79E2 /* Products */,
+				8B62805A1AF21C5E001F79E2 /* TED.rss.app */,
+				8B62805B1AF21C5E001F79E2 /* TED.rssTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
-		8BEFEFB01AEE936800C78A61 /* Products */ = {
+		8B62801B1AF2197A001F79E2 /* TED.rss */ = {
 			isa = PBXGroup;
 			children = (
-				8BEFEFAF1AEE936800C78A61 /* TED.rss.app */,
-				8BEFEFC81AEE936800C78A61 /* TED.rssTests.xctest */,
+				8B6280421AF21990001F79E2 /* KSAppDelegate.h */,
+				8B6280431AF21990001F79E2 /* KSAppDelegate.m */,
+				8B6280441AF21990001F79E2 /* KSViewController.h */,
+				8B6280451AF21990001F79E2 /* KSViewController.m */,
+				8B6280461AF21990001F79E2 /* KSTalkDetailViewController.h */,
+				8B6280471AF21990001F79E2 /* KSTalkDetailViewController.m */,
+				8B6280481AF21990001F79E2 /* Main.storyboard */,
+				8B6280491AF21990001F79E2 /* Images.xcassets */,
+				8B62804A1AF21990001F79E2 /* LaunchScreen.xib */,
+				8B62801C1AF2197A001F79E2 /* Supporting Files */,
+			);
+			path = TED.rss;
+			sourceTree = "<group>";
+		};
+		8B62801C1AF2197A001F79E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B6280511AF219A2001F79E2 /* Info.plist */,
+				8B6280521AF219A2001F79E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B6280351AF2197A001F79E2 /* TED.rssTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B6280551AF219BD001F79E2 /* TEDTests.m */,
+				8B6280361AF2197A001F79E2 /* Supporting Files */,
+			);
+			path = TED.rssTests;
+			sourceTree = "<group>";
+		};
+		8B6280361AF2197A001F79E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B6280571AF219CB001F79E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B6280591AF21B96001F79E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8BEFEFB11AEE936800C78A61 /* TED */ = {
-			isa = PBXGroup;
-			children = (
-				8BEFEFB61AEE936800C78A61 /* KSAppDelegate.h */,
-				8BEFEFB71AEE936800C78A61 /* KSAppDelegate.m */,
-				8BEFEFB91AEE936800C78A61 /* KSViewController.h */,
-				8BEFEFBA1AEE936800C78A61 /* KSViewController.m */,
-				8BC436A41AEFA71600E618A4 /* KSTalkDetailViewController.h */,
-				8BC436A51AEFA71600E618A4 /* KSTalkDetailViewController.m */,
-				8BEFEFBC1AEE936800C78A61 /* Main.storyboard */,
-				8BEFEFBF1AEE936800C78A61 /* Images.xcassets */,
-				8BEFEFC11AEE936800C78A61 /* LaunchScreen.xib */,
-				8BEFEFB21AEE936800C78A61 /* Supporting Files */,
-			);
-			path = TED;
-			sourceTree = "<group>";
-		};
-		8BEFEFB21AEE936800C78A61 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8BEFEFB31AEE936800C78A61 /* Info.plist */,
-				8BEFEFB41AEE936800C78A61 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8BEFEFCB1AEE936800C78A61 /* TEDTests */ = {
-			isa = PBXGroup;
-			children = (
-				8BEFEFCE1AEE936800C78A61 /* TEDTests.m */,
-				8BEFEFCC1AEE936800C78A61 /* Supporting Files */,
-			);
-			path = TEDTests;
-			sourceTree = "<group>";
-		};
-		8BEFEFCC1AEE936800C78A61 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8BEFEFCD1AEE936800C78A61 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = TED.rss.xcodeproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BEFEFAE1AEE936800C78A61 /* TED.rss */ = {
+		8B6280181AF2197A001F79E2 /* TED.rss */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BEFEFD21AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rss" */;
+			buildConfigurationList = 8B62803C1AF2197A001F79E2 /* Build configuration list for PBXNativeTarget "TED.rss" */;
 			buildPhases = (
-				8BEFEFAB1AEE936800C78A61 /* Sources */,
-				8BEFEFAC1AEE936800C78A61 /* Frameworks */,
-				8BEFEFAD1AEE936800C78A61 /* Resources */,
+				8B6280151AF2197A001F79E2 /* Sources */,
+				8B6280161AF2197A001F79E2 /* Frameworks */,
+				8B6280171AF2197A001F79E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TED.rss;
-			productName = TED;
-			productReference = 8BEFEFAF1AEE936800C78A61 /* TED.rss.app */;
+			productName = TED.rss;
+			productReference = 8B62805A1AF21C5E001F79E2 /* TED.rss.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8BEFEFC71AEE936800C78A61 /* TED.rssTests */ = {
+		8B6280311AF2197A001F79E2 /* TED.rssTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BEFEFD51AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rssTests" */;
+			buildConfigurationList = 8B62803F1AF2197A001F79E2 /* Build configuration list for PBXNativeTarget "TED.rssTests" */;
 			buildPhases = (
-				8BEFEFC41AEE936800C78A61 /* Sources */,
-				8BEFEFC51AEE936800C78A61 /* Frameworks */,
-				8BEFEFC61AEE936800C78A61 /* Resources */,
+				8B62802E1AF2197A001F79E2 /* Sources */,
+				8B62802F1AF2197A001F79E2 /* Frameworks */,
+				8B6280301AF2197A001F79E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BEFEFCA1AEE936800C78A61 /* PBXTargetDependency */,
+				8B6280341AF2197A001F79E2 /* PBXTargetDependency */,
 			);
 			name = TED.rssTests;
-			productName = TEDTests;
-			productReference = 8BEFEFC81AEE936800C78A61 /* TED.rssTests.xctest */;
+			productName = TED.rssTests;
+			productReference = 8B62805B1AF21C5E001F79E2 /* TED.rssTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8BEFEFA71AEE936800C78A61 /* Project object */ = {
+		8B6280111AF2197A001F79E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Kviatkovskii;
 				TargetAttributes = {
-					8BEFEFAE1AEE936800C78A61 = {
+					8B6280181AF2197A001F79E2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = P44LMMDHV3;
 					};
-					8BEFEFC71AEE936800C78A61 = {
+					8B6280311AF2197A001F79E2 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 8BEFEFAE1AEE936800C78A61;
+						TestTargetID = 8B6280181AF2197A001F79E2;
 					};
 				};
 			};
-			buildConfigurationList = 8BEFEFAA1AEE936800C78A61 /* Build configuration list for PBXProject "TED.rss" */;
+			buildConfigurationList = 8B6280141AF2197A001F79E2 /* Build configuration list for PBXProject "TED.rss" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,88 +192,71 @@
 				en,
 				Base,
 			);
-			mainGroup = 8BEFEFA61AEE936800C78A61;
-			productRefGroup = 8BEFEFB01AEE936800C78A61 /* Products */;
+			mainGroup = 8B6280101AF2197A001F79E2;
+			productRefGroup = 8B6280101AF2197A001F79E2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BEFEFAE1AEE936800C78A61 /* TED.rss */,
-				8BEFEFC71AEE936800C78A61 /* TED.rssTests */,
+				8B6280181AF2197A001F79E2 /* TED.rss */,
+				8B6280311AF2197A001F79E2 /* TED.rssTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8BEFEFAD1AEE936800C78A61 /* Resources */ = {
+		8B6280171AF2197A001F79E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEFEFBE1AEE936800C78A61 /* Main.storyboard in Resources */,
-				8BEFEFC31AEE936800C78A61 /* LaunchScreen.xib in Resources */,
-				8BEFEFC01AEE936800C78A61 /* Images.xcassets in Resources */,
+				8B6280531AF219A2001F79E2 /* Info.plist in Resources */,
+				8B62804E1AF21990001F79E2 /* Main.storyboard in Resources */,
+				8B6280501AF21990001F79E2 /* LaunchScreen.xib in Resources */,
+				8B62804F1AF21990001F79E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEFEFC61AEE936800C78A61 /* Resources */ = {
+		8B6280301AF2197A001F79E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6280581AF219CB001F79E2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BEFEFAB1AEE936800C78A61 /* Sources */ = {
+		8B6280151AF2197A001F79E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEFEFBB1AEE936800C78A61 /* KSViewController.m in Sources */,
-				8BEFEFB81AEE936800C78A61 /* KSAppDelegate.m in Sources */,
-				8BEFEFB51AEE936800C78A61 /* main.m in Sources */,
-				8BC436A61AEFA71600E618A4 /* KSTalkDetailViewController.m in Sources */,
+				8B62804C1AF21990001F79E2 /* KSViewController.m in Sources */,
+				8B62804B1AF21990001F79E2 /* KSAppDelegate.m in Sources */,
+				8B6280541AF219A2001F79E2 /* main.m in Sources */,
+				8B62804D1AF21990001F79E2 /* KSTalkDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEFEFC41AEE936800C78A61 /* Sources */ = {
+		8B62802E1AF2197A001F79E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEFEFCF1AEE936800C78A61 /* TEDTests.m in Sources */,
+				8B6280561AF219BD001F79E2 /* TEDTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BEFEFCA1AEE936800C78A61 /* PBXTargetDependency */ = {
+		8B6280341AF2197A001F79E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8BEFEFAE1AEE936800C78A61 /* TED.rss */;
-			targetProxy = 8BEFEFC91AEE936800C78A61 /* PBXContainerItemProxy */;
+			target = 8B6280181AF2197A001F79E2 /* TED.rss */;
+			targetProxy = 8B6280331AF2197A001F79E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		8BEFEFBC1AEE936800C78A61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BEFEFBD1AEE936800C78A61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8BEFEFC11AEE936800C78A61 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BEFEFC21AEE936800C78A61 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		8BEFEFD01AEE936800C78A61 /* Debug */ = {
+		8B62803A1AF2197A001F79E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		8BEFEFD11AEE936800C78A61 /* Release */ = {
+		8B62803B1AF2197A001F79E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +317,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -351,27 +338,33 @@
 			};
 			name = Release;
 		};
-		8BEFEFD31AEE936800C78A61 /* Debug */ = {
+		8B62803D1AF2197A001F79E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TED/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TED.rss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = TED.rss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d42c9ada-929f-45d3-8ebb-cc53550c77d0";
 			};
 			name = Debug;
 		};
-		8BEFEFD41AEE936800C78A61 /* Release */ = {
+		8B62803E1AF2197A001F79E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TED/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergei Kviatkovskii (P44LMMDHV3)";
+				INFOPLIST_FILE = TED.rss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = TED.rss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d42c9ada-929f-45d3-8ebb-cc53550c77d0";
 			};
 			name = Release;
 		};
-		8BEFEFD61AEE936800C78A61 /* Debug */ = {
+		8B6280401AF2197A001F79E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -383,14 +376,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TEDTests/Info.plist;
+				INFOPLIST_FILE = TED.rssTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TED.rssTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TED.app/TED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TED.rss.app/TED.rss";
 			};
 			name = Debug;
 		};
-		8BEFEFD71AEE936800C78A61 /* Release */ = {
+		8B6280411AF2197A001F79E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,44 +391,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TEDTests/Info.plist;
+				INFOPLIST_FILE = TED.rssTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TED.rssTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TED.app/TED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TED.rss.app/TED.rss";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BEFEFAA1AEE936800C78A61 /* Build configuration list for PBXProject "TED.rss" */ = {
+		8B6280141AF2197A001F79E2 /* Build configuration list for PBXProject "TED.rss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BEFEFD01AEE936800C78A61 /* Debug */,
-				8BEFEFD11AEE936800C78A61 /* Release */,
+				8B62803A1AF2197A001F79E2 /* Debug */,
+				8B62803B1AF2197A001F79E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BEFEFD21AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rss" */ = {
+		8B62803C1AF2197A001F79E2 /* Build configuration list for PBXNativeTarget "TED.rss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BEFEFD31AEE936800C78A61 /* Debug */,
-				8BEFEFD41AEE936800C78A61 /* Release */,
+				8B62803D1AF2197A001F79E2 /* Debug */,
+				8B62803E1AF2197A001F79E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		8BEFEFD51AEE936800C78A61 /* Build configuration list for PBXNativeTarget "TED.rssTests" */ = {
+		8B62803F1AF2197A001F79E2 /* Build configuration list for PBXNativeTarget "TED.rssTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BEFEFD61AEE936800C78A61 /* Debug */,
-				8BEFEFD71AEE936800C78A61 /* Release */,
+				8B6280401AF2197A001F79E2 /* Debug */,
+				8B6280411AF2197A001F79E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8BEFEFA71AEE936800C78A61 /* Project object */;
+	rootObject = 8B6280111AF2197A001F79E2 /* Project object */;
 }

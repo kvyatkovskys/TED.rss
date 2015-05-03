@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TED.xcscheme</key>
+		<key>TED.rss.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8BEFEFAE1AEE936800C78A61</key>
+		<key>8B6280181AF2197A001F79E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8BEFEFC71AEE936800C78A61</key>
+		<key>8B6280311AF2197A001F79E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -25,6 +25,7 @@
 @property (strong, nonatomic) NSDictionary *talkTed;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet UIButton *addDataTalkTED;
+@property (strong, nonatomic) UIRefreshControl *refreshControl;
 
 @end
 
@@ -45,7 +46,10 @@ static id ID;
     
     [activityIndicator setCenter:[self.view center]];
     [self.tableView addSubview:activityIndicator];
-    NSString *URLString = [NSString stringWithFormat:@"https://api.ted.com/v1/talks.json?external=true&podcasts=true&api-key=%@&order=created_at:desc&limit=100",ApiKey];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+
+    NSString *URLString = [NSString stringWithFormat:@"https://api.ted.com/v1/talks.json?external=true&podcasts=true&api-key=%@&order=created_at:desc&limit=15",ApiKey];
     NSURL *url = [NSURL URLWithString:URLString];
     [KSAppDelegate downloadDataFromURL:url withCompletionHandler:^(NSData *data) {
         if (data != nil) {
@@ -80,10 +84,63 @@ static id ID;
             }
         }
     }];
-    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    self.tableView.estimatedRowHeight = 44;
-    self.addDataTalkTED.hidden = YES;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self setupTableView];
+        });
+    });
+}
+
+- (void)refreshTable {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+
+    NSString *URLString = [NSString stringWithFormat:@"https://api.ted.com/v1/talks.json?external=true&podcasts=true&api-key=%@&order=created_at:desc&limit=15",ApiKey];
+    NSURL *url = [NSURL URLWithString:URLString];
+    [KSAppDelegate downloadDataFromURL:url withCompletionHandler:^(NSData *data) {
+        if (data != nil) {
+            NSError * error;
+            NSMutableDictionary *returnedDict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+            if (error != nil) {
+                NSLog (@"%@", [error localizedDescription]);
+            }
+            else {
+                [nameTalk removeAllObjects];
+                [idTalk removeAllObjects];
+                [publishedTalk removeAllObjects];
+                [descriptionTalk removeAllObjects];
+                self.talksTed = returnedDict[@"talks"];
+                for (NSDictionary *curDict in self.talksTed) {
+                    self.talkTed = [curDict objectForKey:@"talk"];
+                    NSString *name = self.talkTed[@"name"];
+                    if (name != nil) {
+                        [nameTalk addObject:name];
+                        [self.tableView reloadData];
+                    }
+                    NSString *published = self.talkTed[@"published_at"];
+                    if (published != nil) {
+                        [publishedTalk addObject:published];
+                    }
+                    NSString *description = self.talkTed[@"description"];
+                    if (description != nil) {
+                        [descriptionTalk addObject:description];
+                    }
+                    NSString *idStr = self.talkTed[@"id"];
+                    if (idStr != nil) {
+                        [idTalk addObject:idStr];
+                    }
+                }
+            }
+        }
+    }];
+        dispatch_async(dispatch_get_main_queue(), ^{
+
+            self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+            self.tableView.rowHeight = UITableViewAutomaticDimension;
+            self.tableView.estimatedRowHeight = 44;
+            self.addDataTalkTED.hidden = YES;
+            [self.refreshControl endRefreshing];
+            self.tableView.alwaysBounceVertical = YES;
+        });
+    });
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -115,18 +172,25 @@ static id ID;
     self.addDataTalkTED.hidden = NO;
 }
 
+//-(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+//    CGFloat currentOffset = scrollView.contentOffset.y;
+//    CGFloat maximumOffset = scrollView.contentSize.height - scrollView.frame.size.height;
+//    CGFloat deltaOffset = maximumOffset - currentOffset;
+//    
+//    if (deltaOffset <= 0) {
+//        [self addDataTableTalkTED:self];
+//    }
+//}
+
 - (IBAction)addDataTableTalkTED:(id)sender {
     
     offset = nameTalk.count;
     offset ++;
     //NSLog(@"%ld", (long)offset);
     
-    self.addDataTalkTED.hidden = YES;
-    activityIndicator.color = [UIColor redColor];
-    [activityIndicator startAnimating];
-    [activityIndicator setCenter:[self.addDataTalkTED center]];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 
-    NSString *URLString = [NSString stringWithFormat:@"https://api.ted.com/v1/talks.json?external=true&podcasts=true&api-key=%@&order=created_at:desc&limit=100&offset=%ld",ApiKey, (long)offset];
+    NSString *URLString = [NSString stringWithFormat:@"https://api.ted.com/v1/talks.json?external=true&podcasts=true&api-key=%@&order=created_at:desc&limit=15&offset=%ld",ApiKey, (long)offset];
     NSURL *url = [NSURL URLWithString:URLString];
     [KSAppDelegate downloadDataFromURL:url withCompletionHandler:^(NSData *data) {
         if (data != nil) {
@@ -161,6 +225,14 @@ static id ID;
             }
         }
     }];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.tableView.tableFooterView.hidden = NO;
+            self.addDataTalkTED.hidden = YES;
+            activityIndicator.color = [UIColor redColor];
+            [activityIndicator startAnimating];
+            [activityIndicator setCenter:[self.addDataTalkTED center]];
+        });
+    });
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -217,6 +289,20 @@ static id ID;
     [blurView setFrame:self.tableView.bounds];
     [backgroundColorView addSubview:blurView];
     return backgroundColorView;
+}
+
+- (void)setupTableView {
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 44;
+    self.tableView.tableFooterView.hidden = YES;
+    self.addDataTalkTED.hidden = YES;
+    
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    [refreshControl addTarget:self action:@selector(refreshTable) forControlEvents:UIControlEventValueChanged];
+    self.refreshControl = refreshControl;
+    self.refreshControl.tintColor = [UIColor redColor];
+    [self.tableView addSubview:self.refreshControl];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -53,6 +53,8 @@ static NSString *stringTitle;
     self.titleLable.hidden = YES;
     self.playButonTalkTED.hidden = YES;
 
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+
     NSString *URLString = [NSString stringWithFormat:@"https://api.ted.com/v1/talks/%@.json?external=true&podcasts=true&api-key=%@",idTalkTED ,ApiKey];
     NSURL *url = [NSURL URLWithString:URLString];
     [KSAppDelegate downloadDataFromURL:url withCompletionHandler:^(NSData *data) {
@@ -101,9 +103,13 @@ static NSString *stringTitle;
             }
         }
     }];
+        dispatch_async(dispatch_get_main_queue(), ^{
+
     NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [notificationCenter addObserver:self selector:@selector(deviceOrientationDidChange) name:UIDeviceOrientationDidChangeNotification object:nil];
+        });
+    });
 }
 
 - (IBAction)playUrlTalkTED:(UIButton *)sender {

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/km/Desktop/TED/TED.rss.xcodeproj">
+      location = "self:TED.rss.xcodeproj">
    </FileRef>
 </Workspace>
